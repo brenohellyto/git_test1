@@ -1,0 +1,17 @@
+{
+  "name": "auto-changelog",
+  "version": "1.0.2",
+  "main": "index.js",
+  "repository": "git@github.com:brenohellyto/auto-changelog.git",
+  "author": "Breno <bhellyto@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "auto-changelog": "^2.5.0",
+    "changelog": "^1.4.2",
+    "standard-version": "^9.5.0"
+  }
+}
